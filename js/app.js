@@ -40,7 +40,7 @@ var APP = {
 			controls = new THREE.OrbitControls( camera );
 			controls.autoRotate = true;
 			controls.autoRotate = true;
-			controls.autoRotateSpeed = 5;
+			controls.autoRotateSpeed = 2;
 			controls.target = new THREE.Vector3();
 			console.log( controls );
 
